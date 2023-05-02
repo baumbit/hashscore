@@ -38,3 +38,6 @@ Can I trust that the app I downloaded from internet does not contain a virus? Co
 
 ### Social Media
 Is the news from the news outlet, or message on social media, important for me to read or not? Query your trusted peers for their opinion on the priority and then create a filtered list of content. For a deep dive about this, read more about [PeerCuration](https://github.com/baumbit/peercuration).
+
+### Nostr
+Nostr could benefit from HashScore in many ways. It could be used to mitigate issues related to accounts being hacked (could fascilitate account migration) and protect against DDoS attack by leveraging [PeerCuration](https://github.com/baumbit/peercuration).
