@@ -1,6 +1,6 @@
 # HashScore
 
-A HashScore is a simple signed data structure, which ties a hash to one or several scores. A suitable [hash](https://en.wikipedia.org/wiki/(Cryptographic_hash_function) could be SHA-512, and a score is always a floating point value 0-1. The purpose of HashScore is to leverage users [Web-of-Trust](https://en.wikipedia.org/wiki/Web_of_trust) to sort and filter digital resources.
+A HashScore is a simple signed data structure, which ties a hash to one or several scores. A suitable [hash](https://en.wikipedia.org/wiki/Cryptographic_hash_function) could be SHA-512, and a score is always a floating point value 0-1. The purpose of HashScore is to leverage users [Web-of-Trust](https://en.wikipedia.org/wiki/Web_of_trust) to sort and filter digital resources.
 
 ## The problem
 While internet enables decentralised applications, it does not and can not know the validity (in lack of better terms) of the digital resources on it. Protocols such as TCP/IP, UDP, etc., can not discern what is true, what is false and/or what is important Internet users often find themselves depending on selected authorities to weed this out, which introduces several weaknesses. Perhaps most recognised is that its often implemented as centralised entities which can be DDoS attacked and/or hacked to spread disinformation. Another less recognised weakness, is that attackers can flood internet with data, to crowd out and thereby divert the attention of users from data that which is important. Furthermore, what is important depends on the context and is highly subjective, thus there is no objective provable truth.
@@ -13,7 +13,8 @@ As long as the hash-function or the cryptographic signature is not broken, a Has
 
 ## Can a HashScore be mutated?
 A HashScore can not be changed after it has been creating, without re-signing the HashScore. However a HashScore may contain one or several different types of scores. In a JSON-object the type of score, is inferred by the name of the property. Example of a HashScore with two different types of scores:
-```{
+```
+{
 hashscore: {
 sha512: <hash of the digital resource>,
 uri: <resource identifier>,
@@ -22,7 +23,8 @@ trust: <0-1>, // example: a score indicating if the hashed resource can be trust
 priority: <0-1> // example: a score indicating how importance of the hashed resource
 }
 signature: <the signed hashscore>
-}´´´
+}
+```
 
 ## Use-case examples
 
