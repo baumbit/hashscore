@@ -22,7 +22,7 @@ trust: <0-1>, // example: a score indicating if the hashed resource can be trust
 priority: <0-1> // example: a score indicating how importance of the hashed resource
 }
 signature: <the signed hashscore>
-}```
+}´´´
 
 ## Use-case examples
 
@@ -33,4 +33,4 @@ Does the torrent file contain the data the the name of the file suggests? A Hash
 Can I trust that the app I downloaded from internet does not contain a virus? Consult your trusted peers to find out if the URI matches the same hash you have and if it can be trusted or not.
 
 ### Social Media
-Is the news from the news outlet, or message on social media, important for me to read or not? Query your trusted peers for their opinion on the priority and then create a filtered list of content. For a deep dive about this, read more about PeerCuration.
+Is the news from the news outlet, or message on social media, important for me to read or not? Query your trusted peers for their opinion on the priority and then create a filtered list of content. For a deep dive about this, read more about [PeerCuration](https://github.com/baumbit/peercuration).
