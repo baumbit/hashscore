@@ -31,7 +31,7 @@ signature: <the signed hashscore>
 ## Use-case examples
 
 ### Torrents
-Does the torrent file contain the data the the name of the file suggests? A HashScore with a trust of 0 indicates it does not. A score of 1 indicates that it does. By querying what your trusted peers (other people you trust) thinks, you can now make a qualified guess.
+Does the torrent file contain the data the name of the file suggests? A HashScore with a trust of 0 indicates it does not. A score of 1 indicates that it does. By querying what your trusted peers (other people you trust) thinks, you can now make a qualified guess.
 
 ### App downloaded from internet
 Can I trust that the app I downloaded from internet does not contain a virus? Consult your trusted peers to find out if the URI matches the same hash you have and if it can be trusted or not.
