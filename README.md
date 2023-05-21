@@ -25,6 +25,7 @@ trust: <0-1>, // example: a score indicating if the hashed resource can be trust
 priority: <0-1> // example: a score indicating how importance of the hashed resource
 }
 signature: <the signed hashscore>
+signer: <signer identifier>
 }
 ```
 
